@@ -29,7 +29,8 @@ func main() {
 	}
 
 	fmt.Println("🚀 Testing ElevenLabs Go Client Library")
-	fmt.Println("=====================================\n")
+	fmt.Println("=====================================")
+	fmt.Println()
 
 	// Create client
 	client := elevenlabs.NewClient(apiKey)
